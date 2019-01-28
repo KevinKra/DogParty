@@ -37,8 +37,8 @@ body {
 }
 
 .clearfix::after {
-  content: "";
   clear: both;
+  content: "";
   display: table;
 }
 
@@ -224,12 +224,12 @@ footer img {
 	}
 
 	.top-container ul {
-		width: 100%;
+		display: block;
+		list-style-type: square;
 		margin: auto;
 		padding: 0;
-		display: block;
 		text-align: center;
-		list-style-type: square;
+		width: 100%;
 	}
 
 	.top-container li {
@@ -253,6 +253,11 @@ footer img {
 
   	.secondary-section article {
 		margin: 10px 0;
+		min-height: 550px;
+	}
+
+	.secondary-section input {
+	  	top: 485px;
 	}
 
 	.t-nav-icon {
